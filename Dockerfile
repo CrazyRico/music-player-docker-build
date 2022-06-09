@@ -38,6 +38,7 @@ RUN cd NeteaseCloudMusicApi \
 WORKDIR /app/NeteaseCloudMusicApi
 
 ADD docker-entrypoint.sh ./
+ADD check.sh ./
 
 RUN chmod +x /app/NeteaseCloudMusicApi/*.sh
 

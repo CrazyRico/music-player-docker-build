@@ -8,6 +8,9 @@ echo -e "===================2. 启动NeteaseCloudMusicApi ===========\n"
 node app.js & 
 echo -e "app.js启动成功...\n"
 
+echo -e "===================3. check.sh ===========\n"
+check.sh &
+echo -e "check.sh启动成功...\n"
 
 echo -e "############################################################\n"
 echo -e "容器启动成功..."
